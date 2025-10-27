@@ -16,4 +16,3 @@ for (let i in list){
 }
 
 
-//cw
