@@ -14,3 +14,6 @@ for (let i in list){
     odd.push(i)
   }
 }
+
+
+//cw
