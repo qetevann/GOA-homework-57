@@ -17,3 +17,6 @@ function letterCheck(arr) {
   }
   return true
 }
+
+
+
