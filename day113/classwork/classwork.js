@@ -1,4 +1,19 @@
 
+let me = {
+    name: 'qetevan',
+    lastName: 'makharashvili',
+    age: 17,
+    adress: 'naxalovka',
+    height: '173',
+    academy: 'GOA'
+
+}
+console.log(me.name)
+console.log(me.lastName)
+console.log(me.age)
+console.log(me.adress)
+console.log(me.height)
+console.log(me.academy)
 
 
 let names = {
