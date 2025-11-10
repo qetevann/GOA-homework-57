@@ -104,7 +104,7 @@ console.log(movie["main actor"])
 let person3 = {
   name: 'name5',
   age: 17,
-  showInfo: function() {
+  a:function showInfo() {
     console.log(`ჩემი სახელია ${this.name} და მე ვარ ${this.age} წლის`)
   }
 }
@@ -120,11 +120,11 @@ person3.showInfo()
 let car3 = {
   brand: 'dodge',
   model: 'challenger',
-  fullName: function() {
+  c: function fullName() {
     return `მე მყავს ${this.brand} რომლის მოდელიც არის ${this.model}`
   }
 }
-console.log(car3.fullName())
+console.log(car3.c())
 
 
 // 14)შექმენი ობიექტი student, რომელსაც ექნება "firstName", "lastName" და ფუნქცია სახელად getFullName(),
@@ -133,7 +133,7 @@ console.log(car3.fullName())
 let student4 = {
   firstName: 'name6',
   lastName: 'lastname2',
-  getFullName: function() {
+  q:function getFullName() {
     return `ჩემი სახელია ${this.firstName} და ჩემი გვარია ${this.lastName}`
   }
 }
