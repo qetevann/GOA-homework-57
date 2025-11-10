@@ -118,7 +118,7 @@ const person3 = {
   age: 20
 }
 
-person.city = 'tbilisi'
+person3.city = 'tbilisi'
 person.height = 1.90
 console.log(person)
 
