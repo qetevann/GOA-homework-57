@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- // 3)შექმენით 5 სათაური,შენი დავალებაა რომ ეს 5 სათაური წამოიღო ჯს ში tagName ის გამოყენებით და შეინახო ცვლადში,შემდეგ შენი დავალებაა რომ innerHTNL ის გამოყენებით შეცვალალო ყველა სათაურის შიგთავსი(ტექსტი) ცალ ცალკე(ინდექსების გამოყენებით რითიც თქვენ გინდათ, ამის შემდეგ როცა შეცვლით 5 ივე ს კონტენტს გამოიტანეთ 5 ივე სათაურის შიგთავსი კონსოლში გამოიყენეთ  innerHTML
+ -->
+
+    <h2>1</h2>
+    <h2>2</h2>
+    <h2>3</h2>
+    <h2>4</h2>
+    <h2>5</h2>
+
+
+    <p>a</p>
+    <p>b</p>
+    <p>c</p>
+
+
+
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+
+
+    <p id="p1">parag1</p>
+    <p id="p2">parag2</p>
+
+<script>
+
+
+let titles = document.getElementsByTagName("h2")
+
+titles[0].innerHTML = "title 1"
+titles[1].innerHTML = "title 2"
+titles[2].innerHTML = "title 3"
+titles[3].innerHTML = "title 4"
+titles[4].innerHTML = "title 5"
+
+
+
+let ps = document.getElementsByTagName("p")
+
+ps[0].textContent = "khachapuri"
+
+
+
+
+
+let paragr = document.getElementsByTagName("p")
+
+let idk = ps[0].textContent
+paragr[0].textContent = paragr[1].textContent
+
+
+
+
+
+</script>
+
+    
+</body>
+</html>

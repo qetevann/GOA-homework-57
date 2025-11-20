@@ -1,0 +1,23 @@
+
+
+#div1{
+  width: 150px;
+  height: 300px;
+  border: 2px solid red;
+}
+
+.title{
+  color: blue;
+  font-size: 20px;
+}
+
+.paragr{
+  color: green;
+  font-size: 14px;
+}
+
+.btn{
+  background: black;
+  color: white;
+  padding: 5px;
+}
