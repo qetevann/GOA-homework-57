@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="box"></div>
+<button onclick="addparagr()">randompargr</button>
+
+<script>
+function addparagr() {
+  const p = document.createElement('p')
+  p.textContent = "newparagr"
+
+  document.getElementById('box').appendChild(p)
+}
+</script>
+
+    
+</body>
+</html>
