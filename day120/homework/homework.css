@@ -1,0 +1,70 @@
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+
+.colorbox{
+    width: 200px;
+    font-size: xx-large;
+    
+}
+
+#red:hover{
+    color: rgb(107, 28, 28);
+    background: red;
+    transition: 0.5s ease;
+    border-radius: 5px;
+
+}
+
+#orng:hover{
+    color: rgb(107, 77, 37);
+    background: orange;
+    transition: 0.5s ease;
+    border-radius: 5px;
+
+}
+
+#yellw:hover{
+    color: rgb(107, 107, 34);
+    background: yellow;
+    transition: 0.5s ease;
+    border-radius: 5px;
+
+}
+
+#grn:hover{
+    color: rgb(32, 68, 32);
+    background: green;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+#lightbl:hover{
+    color:rgb(23, 54, 65);
+    background: lightblue;
+    transition: 0.5s ease;
+    border-radius: 5px;
+
+}
+
+#bl:hover{
+    color: rgb(26, 26, 73);
+    background: blue;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+#prpl:hover{
+    color: rgb(61, 25, 61);
+    background: purple;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+#textinp{
+    font-size: xx-large;
+}
