@@ -8,30 +8,30 @@ const lightbl = document.getElementById('lightbl')
 const bl = document.getElementById('bl')
 const prpl = document.getElementById('prpl')
 
-red.addEventListener('click', function(e){
+red.addEventListener('click', function(){
     input.style.color = 'red'
 })
 
-orng.addEventListener('click', function(e){
+orng.addEventListener('click', function(){
     input.style.color = 'orange'
 })
 
-yellw.addEventListener('click', function(e){
+yellw.addEventListener('click', function(){
     input.style.color = 'yellow'
 })
 
-grn.addEventListener('click', function(e){
+grn.addEventListener('click', function(){
     input.style.color = 'green'
 })
 
-lightbl.addEventListener('click', function(e){
+lightbl.addEventListener('click', function(){
     input.style.color = 'lightblue'
 })
 
-bl.addEventListener('click', function(e){
+bl.addEventListener('click', function(){
     input.style.color = 'blue'
 })
 
-prpl.addEventListener('click', function(e){
+prpl.addEventListener('click', function(){
     input.style.color = 'purple'
 })
