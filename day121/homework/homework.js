@@ -10,5 +10,5 @@ const list = document.getElementById("list")
 
         const li = document.createElement("li")
         li.textContent = `name: ${name1}, lastname: ${surname1}, age: ${age1}`
-        list.appendChild(li)
+        list.appendChild(list1)
     })
