@@ -1,0 +1,37 @@
+
+body{ 
+    font-family: sans-serif; 
+    padding: 20px; 
+}
+input{ 
+    display: block; 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    width: 250px; 
+    border: rgb(173, 173, 173) 1px solid;
+    border-radius: 5px;
+}
+
+button{ 
+    padding: 10px 15px; 
+    margin-bottom: 20px; 
+    background: rgb(151, 255, 151);
+    width: 270px;
+    border: none;
+    color: rgb(95, 95, 95);
+    font-size: larger;
+    border-radius: 5px;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{ 
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 5px; 
+    padding: 10px; 
+    border-radius: 4px; 
+}
