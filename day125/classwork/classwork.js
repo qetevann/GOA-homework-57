@@ -11,3 +11,4 @@ bttn.addEventListener('click', function(){
 
     console.log(time.getHours(),+ ':' +time.getMinutes(), time.getSeconds())
 })
+
