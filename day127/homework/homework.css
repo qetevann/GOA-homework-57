@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: url("background.jpg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', monospace;
+    color: white;
+}
+
+.countdown{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+h1{
+    color: yellow;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.time{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box{
+    text-align: center;
+}
+
+.number{
+    font-size: 24px;
+}
+
+.label{
+    font-size: 10px;
+    color: yellow;
+}
