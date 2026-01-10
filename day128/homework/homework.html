@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="homework.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="watch">
+      <div id="strap" class="strap" style="background:#f2cfc6">
+        <div class="screen">
+          <div id="time"></div>
+          <div>heart rate: <span id="heart">80</span> BPM</div>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <h2>fitbit 19 the smartest watch</h2>
+      <p>select color</p>
+      <div class="colors">
+        <button style="background:#000" onclick="setColor('#000')"></button>
+        <button style="background:#d23c1e" onclick="setColor('#d23c1e')"></button>
+        <button style="background:#7b4b5a" onclick="setColor('#7b4b5a')"></button>
+        <button style="background:#f2cfc6" onclick="setColor('#f2cfc6')"></button>
+      </div>
+      <button class="buy" onclick="buy()">buy now</button>
+    </div>
+  </div>
+
+  <div id="model" class="model" onclick="this.style.display='none'">
+    <div>you bought new watch, congratulations</div>
+  </div>
+
+  <script src="homework.js"></script>
+</body>
+</html>
