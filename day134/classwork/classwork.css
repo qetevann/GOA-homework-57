@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(222, 26%, 31%);
+}
+
+#res{
+    width: 400px0
+    ;
+    height: 100px;
+    background: hsl(224, 36%, 15%);
+    border-radius: 10px;
+}
+
+.func{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,55px);
+    grid-template-rows: repeat(5, 30px);
+    background: hsl(0, 0%, 90%);
+    border-radius: 15px;
+    background: hsl(224, 28%, 35%);
+    padding: 15px;
+    gap: 15px;
+
+}
+
+.func div{
+    background:  lab(74.05% 0 -0.01);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #434b5d;
+    cursor: pointer;
+}
+
+.func div:hover{
+    background: hsl(0, 0, 71);
+
+}
+
+.func div:active{
+    transform: scale(0.9);
+}
+
+#del{
+    background: #a2b2e1;
+    color: #ffff;
+    
+}
+
+#reset{
+    background-color: a2b2e1;
+    color: #ffff;
+}
