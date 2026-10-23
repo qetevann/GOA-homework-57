@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: #2d3436;
+    padding: 20px;
+}
+
+
+.main{
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+
+#cityInput, #searchBtn, #cityName, #weatherText, p {
+    max-width: 450px;
+    width: 100%;
+}
+
+.searcing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cityInput {
+    width: 75%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+#searchBtn {
+    width: 25%;
+    padding: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -5px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+
+    
+}
+
+#searchBtn:hover {
+    background: white;
+    color: #74b9ff;
+}
+
+#cityName {
+    margin-top: 40px;
+    font-size: 2.2rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    height: 50px;
+}
+#weatherText {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 30px 0;
+    color: #ffffff;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    height: 90px;
+}
+
+p:has(#humidity), p:has(#wind) {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 16px 24px;
+    margin: 12px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #ffffff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+

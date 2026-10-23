@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: "Sansation", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin: 0px 200px;
+    font-family: "Sansation", sans-serif;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.signup{
+    border: 1px solid #003478;
+    width: 108px;
+    height: 48px;
+    color: #003478;
+    background: transparent;
+}
+
+.main{
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+}
+
+.left_section {
+    width: 50%;
+    height: 100%;
+
+}
+
+.toptxt h1{
+    color: #003478;
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+
+
+}
+
+.toptxt .h1yellow{
+    color: #fbaa0c;
+    font-weight: 700;
+}
+
+.toptxt {
+    padding:100px 200px;
+    font-size: 30px;
+}
+
+.text1{
+    width: 100%;
+    height:304px;
+
+}
+.text2{
+    background-color: #003478;
+    width: 100%;
+    height:63px;
+
+
+}
+
+.midtxt{
+
+    color: white;
+    font-family: "Sansation", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.midtxt p{
+    padding: 0px 200px;
+}
+.midtxt span{
+    font-size: 35px;
+}
+
+.text3{
+    background-color: #fbaa0c;
+    width: 100%;
+    height:66px;
+    margin-top: 19px;
+}
+.text4{
+    width: 100%;
+    height:175px;
+}
+
+.buy{
+    width: 200px;
+    height: 70px;
+    background: #003478;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.right_section {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, #fbaa0c, #ff8c00);
+    background-repeat: no-repeat;
+    background-position-x: -18px;
+}
+
+
+.carieli{
+    width: 100%;
+    height: 85px;
+    background: #303231;
+}
+
+.carielitxt p{
+    text-align: center;
+    font-size: 36px;
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    color: white;
+}
+
+/* ===== STATS BAR ===== */
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px 0px;
+    background: #f6f6f6;
+}
+
+.stat_item{
+    text-align: center;
+}
+
+.stat_label{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #6b6b6b;
+    margin-bottom: 10px;
+}
+
+.stat_value{
+    font-size: 32px;
+    font-weight: 700;
+    color: #003478;
+}
+
+.stat_value span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b6b6b;
+}
+
+.stat_divider{
+    width: 1px;
+    height: 60px;
+    background: #d6d6d6;
+}
+
+.build_price_btn{
+    width: 220px;
+    height: 64px;
+    background: #003478;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* ===== POWER DOES MATTER ===== */
+.power_section{
+    padding: 80px 200px;
+    text-align: center;
+}
+
+.power_heading{
+    color: #003478;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.power_sub{
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.engine_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    text-align: left;
+}
+
+.engine_card{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.engine_img{
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.engine_img.ecoboost{ background: linear-gradient(135deg, #2b2b2b, #555); }
+.engine_img.gt{ background: linear-gradient(135deg, #0059b3, #003478); }
+.engine_img.mach1{ background: linear-gradient(135deg, #444, #111); }
+.engine_img.shelby{ background: linear-gradient(135deg, #b0b0b0, #7a7a7a); }
+
+.engine_info h3{
+    color: #003478;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.engine_info p{
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.learn_more{
+    color: #003478;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* ===== PHOTO GALLERY ===== */
+.gallery_section{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, #1a1a1a, #000);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.gallery_car{
+    width: 70%;
+    height: 80%;
+    background: linear-gradient(135deg, #2b2b2b, #444);
+    border-radius: 8px 8px 0 0;
+}
+
+.gallery_label{
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+
+.gallery_label p{
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* ===== ECOBOOST SECTION ===== */
+.ecoboost_section{
+    display: flex;
+    align-items: center;
+    padding: 80px 200px;
+    gap: 60px;
+}
+
+.ecoboost_text{
+    width: 50%;
+}
+
+.ecoboost_text h2{
+    color: #003478;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.ecoboost_text p{
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.buy.small{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.ecoboost_car{
+    width: 50%;
+    height: 350px;
+    background: linear-gradient(135deg, #fbaa0c, #ff8c00);
+    border-radius: 8px;
+}
+
+/* ===== QUALITY BANNER ===== */
+.quality_section{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.quality_car{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a1a1a, #000);
+}
+
+.quality_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: rgba(0,0,0,0.35);
+    text-align: center;
+    padding: 0 100px;
+}
+
+.quality_overlay h2{
+    color: white;
+    font-size: 34px;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+@media(max-width: 1500px){
+    .midtxt p{
+        line-height: 75px;
+    }
+}
+
+@media(max-width: 1300px){
+    .engine_grid{
+        grid-template-columns: 1fr;
+    }
+    .ecoboost_section{
+        flex-direction: column;
+    }
+    .ecoboost_text, .ecoboost_car{
+        width: 100%;
+    }
+}

@@ -20,3 +20,14 @@ function mostFrequentItemCount(collection) {
   return Math.max(...Object.values(counts))
 }
 
+function mostFrequentItemCount(collection) {
+  if (collection.length === 0) return 0;
+
+    const counts = {};
+    for (const num of collection) {
+        counts[num] = (counts[num] || 0) + 1;
+    }
+
+    return Math.max(...Object.values(counts));
+}
+module.exports = mostFrequentItemCount;

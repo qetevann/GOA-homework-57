@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #1e2530;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app{
+    background: #262f3d;
+    border-radius: 20px;
+    padding: 34px 38px;
+    width: 420px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+}
+
+h1{
+    color: #f4f1ea;
+    font-size: 20px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.input_row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.input_row input{
+    flex: 1;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #384252;
+    background: #1a2029;
+    color: #f4f1ea;
+    font-size: 14px;
+}
+
+.input_row button{
+    background: #d9622b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input_row button:hover{
+    background: #c9551f;
+}
+
+.todo_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+.todo_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1a2029;
+    border-radius: 10px;
+    padding: 12px 14px;
+    gap: 10px;
+}
+
+.todo_text{
+    color: #f4f1ea;
+    font-size: 14px;
+    flex: 1;
+    word-break: break-word;
+}
+
+.todo_edit_input{
+    flex: 1;
+    background: #262f3d;
+    border: 1px solid #d9622b;
+    border-radius: 6px;
+    color: #f4f1ea;
+    font-size: 14px;
+    padding: 6px 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.todo_actions{
+    display: flex;
+    gap: 6px;
+}
+
+.icon_btn{
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.edit_btn{
+    background: #3b82c4;
+}
+
+.edit_btn:hover{
+    background: #326fa8;
+}
+
+.delete_btn{
+    background: #c4453b;
+}
+
+.delete_btn:hover{
+    background: #a83a32;
+}
+
+.empty_message{
+    color: #7c8798;
+    font-size: 13px;
+    text-align: center;
+    padding: 14px 0;
+}

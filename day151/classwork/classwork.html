@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Class</title>
+<link rel="stylesheet" href="classwork.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>User კლასის მართვა</h1>
+
+    <div class="field">
+        <label>სახელი</label>
+        <input type="text" id="nameInput" placeholder="შეიყვანეთ სახელი">
+    </div>
+
+    <div class="field">
+        <label>ასაკი</label>
+        <input type="number" id="ageInput" placeholder="შეიყვანეთ ასაკი">
+    </div>
+
+    <button id="createBtn">User-ის შექმნა</button>
+
+    <hr>
+
+    <div class="field">
+        <label>ახალი სახელი</label>
+        <input type="text" id="newNameInput" placeholder="ახალი სახელი">
+    </div>
+    <button id="changeNameBtn">სახელის შეცვლა</button>
+
+    <div class="field" style="margin-top: 14px;">
+        <label>ასაკის მატება (რამდენით)</label>
+        <input type="number" id="increaseByInput" placeholder="მაგ. 1">
+    </div>
+    <button id="increaseAgeBtn">ასაკის გაზრდა</button>
+
+    <hr>
+
+    <div class="result" id="result">ჯერ არცერთი User არ არის შექმნილი</div>
+</div>
+
+<script src="classwork.js"></script>
+</body>
+</html>

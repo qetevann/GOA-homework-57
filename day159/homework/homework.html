@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TODO</title>
+<link rel="stylesheet" href="homework.css">
+</head>
+<body>
+
+<div class="page">
+
+    <header class="topbar">
+        <span class="topbar_check">☑</span>
+        <span class="topbar_title">TODO</span>
+    </header>
+
+    <div class="card">
+
+        <div class="progress_row">
+            <div class="progress_text">
+                <p class="progress_title">Task Done</p>
+                <p class="progress_subtitle" id="progressSubtitle">Keep it up</p>
+            </div>
+
+            <div class="progress_circle_wrap">
+                <svg class="progress_ring" width="90" height="90" viewBox="0 0 90 90">
+                    <circle class="progress_ring_bg" cx="45" cy="45" r="40"></circle>
+                    <circle class="progress_ring_fill" id="progressRingFill" cx="45" cy="45" r="40"></circle>
+                </svg>
+                <div class="progress_ratio" id="progressRatio">0/0</div>
+            </div>
+        </div>
+
+        <div class="input_row">
+            <input type="text" id="taskInput" placeholder="Write your next task">
+            <button id="addBtn" class="add_btn">+</button>
+        </div>
+
+        <ul class="task_list" id="taskList"></ul>
+
+    </div>
+
+</div>
+
+<script src="homework.js"></script>
+</body>
+</html>

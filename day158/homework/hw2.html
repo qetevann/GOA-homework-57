@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>შესვლა</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth_card">
+    <div class="auth_icon">🔐</div>
+    <h1>კეთილი იყოს დაბრუნება</h1>
+    <p class="subtitle">შედით თქვენს ანგარიშში</p>
+
+    <div class="banner" id="banner"></div>
+
+    <form id="loginForm" novalidate>
+
+        <div class="field">
+            <label>ელფოსტა</label>
+            <input type="email" id="email" placeholder="you@example.com">
+            <div class="field_error" id="emailError"></div>
+        </div>
+
+        <div class="field">
+            <label>პაროლი</label>
+            <div class="input_wrap">
+                <input type="password" id="password" placeholder="შენი პაროლი">
+                <button type="button" class="toggle_password" data-target="password">👁</button>
+            </div>
+            <div class="field_error" id="passwordError"></div>
+        </div>
+
+        <button type="submit" class="submit_btn">შესვლა</button>
+    </form>
+
+    <p class="switch_link">არ გაქვს ანგარიში? <a href="register.html">რეგისტრაცია</a></p>
+</div>
+
+<script src="auth.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
